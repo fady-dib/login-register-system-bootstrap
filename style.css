@@ -1,0 +1,106 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body,
+html {
+  height: auto;
+}
+
+.page{
+    background-image: url("background1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1px;
+    perspective-origin: center center;
+    overflow-x: hidden;
+  }
+
+
+.parallax{
+    transform-style: preserve-3d;
+    height: 50vh;
+  }
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height:550px
+  
+}
+
+.box{
+    height: 450px;
+    box-shadow: 2px 2px 10px 5px #0dcaf0;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:12px;
+    margin-top:40px;
+}
+
+.box-register{
+    height: 650px;
+    box-shadow: 2px 2px 10px 8px #0dcaf0;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:12px;
+    margin-top:40px;
+}
+
+
+
+.login{
+    width:350px;
+    height: min-content;
+    padding:20px;
+}
+
+.login-register{
+    width:650px;
+    height: min-content;
+    padding:20px;
+}
+
+.login h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form{
+    font-size: 20px;
+}
+
+.login form .form-group{
+    margin-bottom: 12px;
+}
+
+.login form input[type ="submit"]{
+font-size: 20px;
+}
+
+.form{
+    margin:40px
+}
+
+.links{
+    margin:20px;
+    gap:10%
+}
+
+#register{
+    padding-left: 10%;
+}
