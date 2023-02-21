@@ -11,6 +11,17 @@ html {
   height: auto;
 }
 
+.container-logo{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px
+}
+
+.logo{
+    size: 20px;
+}
+
 .page{
     background-image: url("background1.jpg");
     background-attachment: fixed;
@@ -27,7 +38,6 @@ html {
 
 .parallax{
     transform-style: preserve-3d;
-    height: 50vh;
   }
 
 .flexbox{
@@ -35,7 +45,7 @@ html {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  height:550px
+  height:1200px
   
 }
 
@@ -61,18 +71,24 @@ html {
     margin-top:40px;
 }
 
+.form-group{
+    padding-bottom: 30px
+}
+
 
 
 .login{
     width:350px;
     height: min-content;
     padding:20px;
+    margin-bottom: 40px;
 }
 
 .login-register{
     width:650px;
     height: min-content;
     padding:20px;
+    
 }
 
 .login h1{
@@ -102,5 +118,5 @@ font-size: 20px;
 }
 
 #register{
-    padding-left: 10%;
+    margin: 20px;
 }
