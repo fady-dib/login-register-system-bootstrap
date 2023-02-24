@@ -1,4 +1,4 @@
-### languages which we use in the project
+### languages which I use in the project
 * HTML
 * CSS
 
